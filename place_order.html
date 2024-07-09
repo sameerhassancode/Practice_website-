@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="place_order.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div id="firstname">
+                <h1>Kumail</h1>
+            </div>
+            <div id="secondname">
+                <h1>Hashmi</h1>
+            </div>
+            <div class="myclass">
+                <div id="option">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html"> Contact us</a>
+                    <a href="place_order.html">Place Order</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Place Your Order</h1>
+        <form id="orderForm" action="/submit_order" method="post">
+          <label for="projectName">Project Name:</label>
+          <input type="text" id="projectName" name="projectName" required><br>
+    
+          <label for="City">City:</label>
+          <select id="City" name="City" required>
+            <option value="select Your City">Select Your City</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Islambad">Islambad</option>
+            <option value="Rawalpindi">Rawalpindi</option>
+            <option value="peshawar">peshawar</option>
+            <option value="Wah Cantt">Wah cantt</option>
+            <option value="Faislabad">Faislabad</option>
+            <option value="Mardan">Mardan</option>
+            <option value="Kohat">Kohat</option>
+            <option value="Bakhar">Bakhar</option>
+            <option value="Multan">Multan</option>
+            <option value="Sawat">Sawat</option>
+            <option value="Waziristan">Waziristan</option>
+            <option value="Quetta">Quetta</option>
+            <option value="Karachi">Karachi</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="Other">Other</option>
+          </select><br>
+    
+          <label for="orderDate">Order Placed Date:</label>
+          <input type="date" id="orderDate" name="orderDate" required>
+          <label for="dueDate">Due Date:</label>
+          <input type="date" id="dueDate" name="dueDate" required><br>
+    
+          <label for="projectType">Project Type:</label><br><br>
+          <input type="radio" id="softwareApp" name="projectType" value="Software Application" required>
+          <label for="softwareApp">Software Application</label>
+          <input type="radio" id="webDev" name="projectType" value="Web Development" required>
+          <label for="webDev">Web Development</label>
+          <input type="radio" id="androidDev" name="projectType" value="Android Development" required>
+          <label for="androidDev">Android Development</label><br><br>
+    
+          <label for="projectDesc">Describe Your Project:</label><br>
+          <textarea id="projectDesc" name="projectDesc" rows="4" cols="50" required></textarea><br>
+    
+          <input type="checkbox" id="agree" name="agree" required>
+          <label for="agree">Do you agree all above information is correct?</label><br>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      <footer>
+        <div id="footer">
+            <h1>&#169; WEB DEVELOPER &#169;</h1>
+
+        </div>
+    </footer>
+    
+    
+</body>
+</html>

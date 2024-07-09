@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(31, 30, 30);
+    margin: 0px;
+    padding: 0px;
+
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.984);
+    position: fixed;
+    top: 0px;
+    
+    
+}
+#firstname{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin-left: 50px;
+    display: inline-block;
+}
+#secondname{
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    display: inline-block;
+    
+}
+.myclass{
+    display: inline-block;
+    margin-left: 350px;
+}
+#option{
+    
+    display: inline-block;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+a{
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-left: 80px;
+    top: 10;
+    
+}
+a:hover{
+    color: yellow;
+    text-decoration: underline;
+    height: 2px;
+    
+}
+.contant{
+    height: 900px;
+    width: 100%;
+    
+
+}
+#heading{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    
+}
+#paragraph{
+    color: white;
+    width: 900px;
+    text-align: justify;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+    z-index: -1;
+
+}
+#heading1{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 40px;
+    z-index: -1;
+    
+}
+#paragraph1{
+    color: white;
+    width: 900px;
+    text-align: justify;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    z-index: -1;
+
+}
+#heading2{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+    
+    
+}
+#paragraph2{
+    color: white;
+    width: 900px;
+    text-align: justify;
+    position: relative;
+    left: 200px;
+    bottom: 250px;
+    z-index: -1;
+
+}
+#footer{
+    height: 30px;
+    width: 100%;
+    padding-top: 10px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    font-size: xx-small;
+    position: relative;
+    top: 350px;
+}
+
+
